@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+
+    div {
+      height: 250px;
+
+      &:first-child {
+        background-color: aliceblue;
+      }
+      &:last-child {
+        background-color: red;
+      }
+    }
+  }
+}
